@@ -4,10 +4,10 @@ int main()
 {
     int a, b, c;
     char op;
-    printf("Enter a operator\n");
-    scanf("%c", &op);
     printf("Enter two no.\n");
     scanf("%d%d", &a, &b);
+    printf("Enter a operator\n");
+    scanf(" %c", &op);
 
     switch (op)
 

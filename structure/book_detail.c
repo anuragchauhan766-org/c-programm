@@ -12,7 +12,7 @@ int main()
     printf("Enter book id\n");
     scanf("%d", &st.id);
     printf("Enter book title\n");
-    scanf("%s", &st.title);
+    scanf(" %[^\n]s", st.title);
     printf("Enter book price\n");
     scanf("%f", &st.price);
 
